@@ -7,6 +7,7 @@
  */
 int main(void)
 {
+
 	int i, e, g, h, op1, op2;
 
 	i = e = g = h = 48;
@@ -34,7 +35,6 @@ int main(void)
 							break;
 						putchar(',');
 						putchar(' ');
-
 					}
 					i++;
 				}
@@ -46,5 +46,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}	
-			
+}
